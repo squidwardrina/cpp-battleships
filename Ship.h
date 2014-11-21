@@ -4,22 +4,21 @@
 #define SHIP_H_
 
 #include <list>
-
+#include "Coordinates.h"
 #include "Block.h"
-//#include "Consts.h"
 
 using namespace std;
 
 class Ship {
 private:
 	list<Block*> blocks;
-	Coordinates forstBlockCoords;
 
 public:
 	Ship();
 	Ship(int);
 	virtual ~Ship();
 	void setSize(int);
+	void moveTo(Coordinates startCoords);
 	bool isKilled();
 };
 

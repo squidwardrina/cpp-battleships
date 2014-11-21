@@ -17,6 +17,7 @@ class PersonGame: public Game {
 public:
 	PersonGame();
 	virtual ~PersonGame();
+	void playOneTurn();
 };
 
 #endif /* PERSONGAME_H_ */

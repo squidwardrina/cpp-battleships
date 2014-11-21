@@ -11,3 +11,6 @@ ComputerGame::~ComputerGame() {
 	delete player1;
 	delete player2;
 }
+
+void ComputerGame::playOneTurn() {
+}

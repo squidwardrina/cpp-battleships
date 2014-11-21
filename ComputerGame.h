@@ -17,6 +17,7 @@ class ComputerGame: public Game {
 public:
 	ComputerGame();
 	virtual ~ComputerGame();
+	void playOneTurn();
 };
 
 #endif /* COMPUTERGAME_H_ */

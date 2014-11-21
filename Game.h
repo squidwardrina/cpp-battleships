@@ -22,7 +22,7 @@ protected:
 public:
 	Game();
 	virtual ~Game();
-	virtual void playOneTurn();
+	virtual void playOneTurn() = 0;
 };
 
 #endif /* GAME_H_ */

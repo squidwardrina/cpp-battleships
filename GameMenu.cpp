@@ -25,8 +25,7 @@ GameMenu::~GameMenu() {
 
 
 
-Game * GameMenu::getGameMode()
-{
+Game * GameMenu::getGameMode() {
 	// Get game mode from user
 	cout << "WazzAAAppp?! =)))\n"
 			"Please select game mode:\n"

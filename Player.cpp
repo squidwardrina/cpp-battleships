@@ -8,9 +8,9 @@
 #include "Player.h"
 
 Player::Player() {
-	this->board = new Board();
+	board = new Board();
 }
 
 Player::~Player() {
-	delete this->board;
+	delete board;
 }

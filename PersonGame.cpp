@@ -13,3 +13,6 @@ PersonGame::~PersonGame(){
 	delete player1;
 	delete player2;
 }
+
+void PersonGame::playOneTurn() {
+}

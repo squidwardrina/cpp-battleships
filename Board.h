@@ -20,8 +20,7 @@ private:
 public:
 	Board();
 	virtual ~Board();
-	int handleHit(int, int);
-	void draw(int, int);
+	void draw();
 };
 
 #endif /* BOARD_H_ */

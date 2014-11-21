@@ -12,10 +12,11 @@
 
 class Block: public Coordinates {
 public:
+	Block();
 	Block(int, int);
 	virtual ~Block();
+	void moveBy(int, int);
 	bool isAt(Coordinates coords);
-	//void draw(Board);
 };
 
 #endif /* BLOCK_H_ */

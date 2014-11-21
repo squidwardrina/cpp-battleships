@@ -21,6 +21,5 @@ Board::~Board()
 	ships.clear();
 }
 
-void Board::draw(int int1, int int2)
-{
+void Board::draw() {
 }

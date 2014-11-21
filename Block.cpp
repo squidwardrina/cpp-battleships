@@ -6,29 +6,16 @@
 
 #include "Block.h"
 
+Block::Block(): Coordinates(0, 0) {}
 Block::Block(int x, int y): Coordinates(x, y) {}
-
-Block::~Block() {
-}
+Block::~Block() {}
 
 bool Block::isAt(Coordinates coords) {
+	return (x == coords.getX() &&
+			y == coords.getY());
 }
-/*************************************************************************
-* Function name:	isHit          *
-* The Input:        x and y - the coordinates of the hit      *
-* The output:       boolean - is this block hit or not        *
-* The Function operation:         checks whether the block was hit  *
-*************************************************************************/
-//bool Block::isHit(int x, int y)
-//{
-//	if((this->x == x) && (this->y == y))
-//	{
-//		delete this;
-//		return true;
-//	}
-//	return false;
-//}
 
-//void Block::draw(Board board)
-//{
-//}
+void Block::moveBy(int x, int y) {
+	setX(getX() + x);
+	setY(getY() + y);
+}
