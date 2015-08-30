@@ -1,16 +1,12 @@
-/*
- * Coordinates.h
- *
- *  Created on: Nov 19, 2014
- *      Author: rina
- */
+/****************************************
+* Student Name:		Rina Fridland
+* Exercise Name:	Assignment 1
+* File description:	represents simply coordinates (x, y)
+****************************************/
 
 #ifndef COORDINATES_H_
 #define COORDINATES_H_
 
-/*
- *
- */
 class Coordinates {
 protected:
 	int x;
